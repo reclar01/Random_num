@@ -8,9 +8,11 @@
 //compare the numbers generated with the latest historical picks
 //rinse and repeat until the numbers are generated.
 //list the number of iterations it took to get the correct number
-//console.log(69%(Math.random("Apeshit")*100));
+let x= Math.random("Apeshit");
+console.log(Math.floor(x*1000));
+console.log(Math.floor(x*1000)%69);
 //console.log(readTextFile("C:\Users\reclar01\Documents\Code\Random_num\Random_numPBAllNumbersNumericalOrder.txt"));
-
+/*
 function loadDoc() {
     var xhttp = new XMLHttpRequest();
     xhttp.onreadystatechange = function() {
@@ -21,3 +23,4 @@ function loadDoc() {
     xhttp.open("GET", "PBAllNumbersNumericalOrder.txt", true);
     xhttp.send();
   }
+  */
