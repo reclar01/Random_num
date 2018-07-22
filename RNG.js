@@ -6,7 +6,7 @@
 //OR:
 //randomly generate the required numbers for a pick of a given game
 //compare the numbers generated with the latest historical picks
-//rinse and repeat until the numbers are generated.
+//rinse and repeat until the numbers are generated. 
 //list the number of iterations it took to get the correct number
 let x= Math.random("Apeshit");
 console.log(Math.floor(x*1000));
